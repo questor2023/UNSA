@@ -1,0 +1,100 @@
+2.
+**Titanic Dataset**:
+El conjunto de datos del Titanic es uno de los conjuntos de datos más famosos y se utiliza comúnmente en el análisis de datos y la minería de datos. Contiene información sobre los pasajeros a bordo del famoso barco Titanic, incluidos detalles como el género, la clase de boleto, la edad, la tarifa pagada, el puerto de embarque, si sobrevivieron o no, etc.
+
+Se podían encontrar variables como:
+**Sobrevivió**: Si la persona sobrevivió (1) o no (0).
+**Clase**: Qué tipo de boleto tenían (primera, segunda o tercera).
+**Género**: Si eran hombre o mujer.
+**Edad**: Cuántos años tenían.
+**Hermanos/Esposos**: Cuántos hermanos o esposos estaban con ellos.
+**Padres/Hijos**: Cuántos padres o hijos estaban con ellos.
+**Tarifa**: Cuánto pagaron por el boleto.
+**Embarcado**: Desde qué puerto subieron al barco (C = Cherbourg, Q = Queenstown, S = Southampton).
+
+Iris Dataset:
+El dataset Iris es otro dataset utilizado en el campo de la estadística y el aprendizaje automático. Ayuda a entender diferentes tipos de flores llamadas iris. Muestra medidas de largo y ancho de partes de la flor, y nos permite diferenciar entre tres especies distintas.
+
+Algunas de las cosas que se miden en este conjunto de datos son:
+
+**Largo del Sépalo**: Cuánto mide la parte de atrás de la flor.
+**Ancho del Sépalo**: Qué tan ancha es esa parte.
+**Largo del Pétalo**: Cuánto mide la parte de adelante de la flor.
+**Ancho del Pétalo**: Qué tan ancha es esa parte.
+**Especie**: A cuál de las tres especies pertenece la flor (Setosa, Versicolor o Virginica).
+
+Wine:
+El dataset Wine es comúnmente utilizado para clasificación y análisis enológico. Se trata de análisis de vinos. Contiene información química de distintos vinos y los divide en tres categorías.
+
+Algunas variables en este conjunto de datos son:
+
+**Alcohol**: Cuánto alcohol tiene el vino.
+**Ácido Málico**: La cantidad de un tipo de ácido en el vino.
+**Ceniza**: La cantidad de minerales en el vino.
+**Alcalinidad de Ceniza**: Qué tan alcalino es el vino.
+**Magnesio**: Cuánto magnesio tiene el vino.
+**Fenoles Totales**: Cantidad total de ciertas sustancias en el vino.
+**Flavonoides**: Cantidad de otra sustancia en el vino.
+**Proantocianidinas**: Otra sustancia importante en el vino.
+**Intensidad del Color**: Qué tan fuerte es el color del vino.
+**Tono**: El matiz del vino.
+**Absorbancia en 280/315 nm de vinos diluidos**: Una medida de cómo la luz pasa a través del vino.
+**Prolina**: Cuánta prolina hay en el vino.
+
+Indian Diabetes Dataset:
+Este conjunto de datos tiene información médica sobre pacientes relacionada con la diabetes. Ayuda a entender y predecir si una persona tiene diabetes o no.
+
+Algunas de sus variables:
+**Embarazos**: Cuántos embarazos ha tenido la paciente.
+**Glucosa**: Cuánta glucosa hay en el cuerpo después de no haber comido.
+**Presión Sanguínea**: La fuerza de la sangre en las arterias.
+**Grosor de la Piel**: Qué tan gruesa es la piel en un lugar específico.
+**Insulina**: Cuánta insulina hay en el cuerpo después de comer.
+**IMC (Índice de Masa Corporal)**: Una medida del peso y altura de la persona.
+**Función de Pedigrí de Diabetes**: Una estimación de la probabilidad de tener diabetes.
+**Edad**: Cuántos años tiene la paciente.
+**Resultado**: Si la paciente tiene diabetes (1) o no (0).
+
+Estos conjuntos de datos son ampliamente utilizados en la comunidad de ciencia de datos y aprendizaje automático para prácticas de análisis y modelado.
+
+_Conjunto de Datos del Titanic_:
+- **Survived (Sobrevivió)**: Variable categórica nominal.
+- **Pclass (Clase)**: Variable categórica ordinal.
+- **Sex (Género)**: Variable categórica nominal.
+- **Age (Edad)**: Variable numérica continua.
+- **SibSp (Hermanos/Esposos)**: Variable numérica discreta.
+- **Parch (Padres/Hijos)**: Variable numérica discreta.
+- **Fare (Tarifa)**: Variable numérica continua.
+- **Embarked (Embarcado)**: Variable categórica nominal.
+
+_Conjunto de Datos Iris_:
+- **Sepal Length (Largo del Sépalo)**: Variable numérica continua.
+- **Sepal Width (Ancho del Sépalo)**: Variable numérica continua.
+- **Petal Length (Largo del Pétalo)**: Variable numérica continua.
+- **Petal Width (Ancho del Pétalo)**: Variable numérica continua.
+- **Species (Especie)**: Variable categórica nominal.
+
+_Conjunto de Datos de Vinos_:
+- **Alcohol**: Variable numérica continua.
+- **Malic Acid (Ácido Málico)**: Variable numérica continua.
+- **Ash (Ceniza)**: Variable numérica continua.
+- **Alcalinity of Ash (Alcalinidad de Ceniza)**: Variable numérica continua.
+- **Magnesium**: Variable numérica continua.
+- **Total Phenols (Fenoles Totales)**: Variable numérica continua.
+- **Flavanoids**: Variable numérica continua.
+- **Proanthocyanins (Proantocianidinas)**: Variable numérica continua.
+- **Color Intensity (Intensidad del Color)**: Variable numérica continua.
+- **Hue (Tono)**: Variable numérica continua.
+- **OD280/OD315 of diluted wines (Absorbancia en 280/315 nm de vinos diluidos)**: Variable numérica continua.
+- **Proline**: Variable numérica continua.
+
+_Conjunto de Datos de Diabetes en la India_:
+- **Pregnancies (Embarazos)**: Variable numérica discreta.
+- **Glucose (Glucosa)**: Variable numérica continua.
+- **Blood Pressure (Presión Sanguínea)**: Variable numérica continua.
+- **Skin Thickness (Grosor de la Piel)**: Variable numérica continua.
+- **Insulin**: Variable numérica continua.
+- **BMI (Índice de Masa Corporal)**: Variable numérica continua.
+- **Diabetes Pedigree Function (Función de Pedigrí de Diabetes)**: Variable numérica continua.
+- **Age (Edad)**: Variable numérica discreta.
+- **Outcome (Resultado)**: Variable categórica nominal.
